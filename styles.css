@@ -1,10 +1,75 @@
- body {
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 20px; */
+}
+
+
+ul {
+    list-style: none;
+    /* background-color: goldenrod; */
+}
+
+.nav-child {
+    display: flex;
+    gap: 5px;
+    background-color: purple;
+    padding: 10px;
+}
+
+#h1-header {
+    font-size: 38px;
+    background-color: crimson;
+}
+#contant-button {
+    /* padding: 12px; */
+}
+li {
+    margin-right: 10px;
+}
+.links-list-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F2F2F2;
+        padding: 30px;
+    }
+
+    .nav-child {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: purple;
+        padding: 10px;
+    }
+}
+/* body {
      margin: 0;
      font-family: "Roboto", sans-serif;
  }
 
  header {
-     /* display: flex; */
      background-color: #F2F2F2;
      margin: 0px;
      padding: 25px;
@@ -15,12 +80,10 @@
      flex-direction: column;
      list-style: none;
      gap: 15px;
-     /* flex-direction: column; */
      margin-top: -10px;
      padding: 0;
      font-size: 20px;
      color: black;
-
  }
 
  h1 {
@@ -37,29 +100,27 @@
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     /* background-color: purple; */
      margin: 0px;
      margin-top: 35px;
      padding: 25px;
- }
+ } */
 
- button {
+/* button {
      color: white;
      background-color: #20a8b4;
      border-color: #20a8b4;
      border-radius: 10px;
      padding: 12px;
- }
+ } */
 
- /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
- @media screen and (max-width: 480px) {}
+/* @media screen and (max-width: 480px) {}
 
  @media screen and (min-width: 992px) {
      header {
          display: flex;
          justify-content: space-between;
-         /* background-color: rgba(0, 0, 255, 0.549); */
      }
 
      .nav-button-container {
@@ -69,4 +130,4 @@
         display: flex;
         background-color: rgba(0, 128, 0, 0.577);
      }
- }
+ } */
