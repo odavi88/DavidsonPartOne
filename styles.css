@@ -2,7 +2,17 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
-.highlight-text-color {
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.highlight-text-color-1 {
+    color: #20a8b4;
+}
+.highlight-text-color-2 {
     color: #ff5c0f;
 }
 .parent-container {
@@ -52,7 +62,10 @@ main {
     /* border: #20a8b4 4px dashed; */
 }
 
-
+img {
+    width: 0px;
+    height: 0px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -83,23 +96,24 @@ main {
         justify-content: space-between;
         padding-left: 10px;
         /* padding-right: 80px; */
-        background-color: #ff5b0f8d;
+        /* background-color: #ff5b0f8d; */
     }
     .main-child-1 {
         display: flex;
         flex-direction: column;
         padding-top: 100px;
-        border: #20a8b4 4px dashed;
+        /* border: #20a8b4 4px dashed; */
     }
     .header-text {
-        border: #c122d6 4px dashed;
+        /* border: #c122d6 4px dashed; */
     }
     .learn-more-button {
         width: 100px;
         height: 45px;
     }
-    .image {
-        padding: 0;
-        border: #000 4px dashed;
+
+    img {
+        width: 400px;
+        height: 400px;
     }
 }
