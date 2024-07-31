@@ -5,9 +5,9 @@ body {
 
 .parent-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #F2F2F2;
+    
+    background-color: blue;
+    /* background-color: #F2F2F2; */
     padding: 10px;
 }
 
@@ -38,3 +38,12 @@ a {
     color: #000;
 }
 
+@media screen and (min-width: 768px) {
+    .parent-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F2F2F2;
+        padding: 10px;
+    }
+}
