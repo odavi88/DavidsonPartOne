@@ -1,141 +1,40 @@
-* {
+body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    /* Add in Roboto Font Again */
 }
 
-header {
+.parent-container {
     display: flex;
-    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
     background-color: #F2F2F2;
-    padding: 30px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    /* font-size: 20px; */
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    /* background-color: goldenrod; */
-}
-
-
-.nav-child {
-    display: flex;
-    gap: 5px;
-    background-color: purple;
     padding: 10px;
 }
 
-#h1-header {
-    font-size: 38px;
-    background-color: crimson;
+button {
+    padding: 12px;
+    background-color: #20a8b4;
+    border: solid #20a8b4 2px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 5px;
+    color: #fff;
 }
-#contant-button {
-    /* padding: 12px; */
+nav.child-2 {
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(255, 0, 0, 0.421);
+    border: red 2px solid; */
+}
+ul {
+    display: flex;
+    list-style-type: none;
 }
 li {
-    margin-right: 10px;
+    padding: 6px;
 }
-.links-list-container{
-    display: flex;
-    justify-content: space-evenly;
+a {
+    text-decoration: none;
+    color: #000;
 }
 
-
-
-@media screen and (min-width: 768px) {
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    
-    }
-
-    ul {
-        display: flex;
-        list-style: none;
-    
-        /* background-color: goldenrod; */
-    }
-
-    /* .child-header-container {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        background-color: purple;
-        padding: 10px;
-    } */
-}
-/* body {
-     margin: 0;
-     font-family: "Roboto", sans-serif;
- }
-
- header {
-     background-color: #F2F2F2;
-     margin: 0px;
-     padding: 25px;
- }
-
- ul {
-     display: flex;
-     flex-direction: column;
-     list-style: none;
-     gap: 15px;
-     margin-top: -10px;
-     padding: 0;
-     font-size: 20px;
-     color: black;
- }
-
- h1 {
-     color: #20a8b4;
-     font-size: 3em;
- }
-
- a {
-     text-decoration: none;
-     color: inherit;
- }
-
- main {
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     margin: 0px;
-     margin-top: 35px;
-     padding: 25px;
- } */
-
-/* button {
-     color: white;
-     background-color: #20a8b4;
-     border-color: #20a8b4;
-     border-radius: 10px;
-     padding: 12px;
- } */
-
-/* MEDIA QUERIES */
-
-/* @media screen and (max-width: 480px) {}
-
- @media screen and (min-width: 992px) {
-     header {
-         display: flex;
-         justify-content: space-between;
-     }
-
-     .nav-button-container {
-        display: flex;
-     }
-     .link-list-container {
-        display: flex;
-        background-color: rgba(0, 128, 0, 0.577);
-     }
- } */
