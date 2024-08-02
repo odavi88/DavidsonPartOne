@@ -1,53 +1,57 @@
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
 }
 
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+}
 
 .highlight-text-color-1 {
     color: #20a8b4;
 }
+
 .highlight-text-color-2 {
     color: #ff5c0f;
 }
+
 .parent-container {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     padding-left: 10px;
-    padding-bottom: 10px;
-    /* border: #ff5c0f dashed 4px; */
 }
 
 button {
+    display: flex;
     padding: 12px;
     background-color: #20a8b4;
     border: solid #20a8b4 2px;
     border-radius: 10px;
-    height: 40px;
+    width: 100%;
     margin-left: 5px;
     color: #fff;
 }
+
 nav.child-2 {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
 }
+
 ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding: 0;
 }
+
 li {
     font-size: 17px;
     padding: 6px;
 }
+
 a {
     text-decoration: none;
     color: #000;
@@ -57,20 +61,8 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    /* padding-right: 10px; */
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.main-child-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    /* border: #20a8b4 4px dashed; */
-}
-
-.test {
-    border: #ff5c0f 4px dashed;
 }
 
 img {
@@ -81,10 +73,10 @@ img {
 .nav-link-hover:hover {
     color: #ff5c0f;
 }
+
 .button-hover:hover {
-    color: #fff;
     background-color: #ff5c0f;
-    border-color:#ff5c0f
+    border-color: #ff5c0f
 }
 
 
@@ -115,25 +107,20 @@ img {
         flex-direction: row;
         justify-content: space-between;
         padding-left: 10px;
-        /* padding-right: 80px; */
-        /* background-color: #ff5b0f8d; */
     }
+
     .main-child-1 {
         display: flex;
         flex-direction: column;
         padding-top: 100px;
-        /* border: #20a8b4 4px dashed; */
-    }
-    .header-text {
-        /* border: #c122d6 4px dashed; */
-    }
-    .learn-more-button {
-        width: 100px;
-        height: 45px;
     }
 
     img {
         width: 400px;
         height: 400px;
+    }
+
+    button {
+        width: auto;
     }
 }
